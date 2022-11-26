@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;600;700&display=swap');
+
+/*font-family: 'Mukta', sans-serif; */
+
+* {
+    margin: 0.80;
+    padding: 0.50;
+    box-sizing: border-box;
+    font-family: "Mukta";
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 28px;
+}
+
+.imagenLogo{
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(80, 80, 77);
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+ }   
+
+h2 {
+    background-color: rgb(68, 4, 4);
+    text-align: center;
+    font-size: 35px;
+    border: 2px solid gainsboro;
+}
+
+section {
+    background-color: rgb(9, 27, 87);
+    text-decoration-line: overline;
+    text-align: justify;
+    font-size: 25px;
+    border-color: rgb(150, 104, 104);
+}
+
+.tituloInicio{
+    background-color: rgb(102, 100, 100);
+    text-align: center;
+    font-size: 29px;
+    font-style: italic;
+    
+}
+
+#subtituloInicio {
+    color: rgb(23, 26, 70);
+    text-align: center;
+    font-style: oblique;
+    font-size: 33px;
+    background-color: darkslategrey;
+}
+
+footer {
+    background-color: rgb(32, 31, 56);
+}
