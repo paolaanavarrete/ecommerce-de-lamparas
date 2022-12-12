@@ -20,33 +20,34 @@ body{
 }
 
 h1 {
-    background-color: rgb(122, 122, 118);
+    background-color: rgb(255, 87, 84);
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
     border: 2px solid #ffffff;
     border-radius: 8px;
+    display: flex;
  }   
 
 h2 {
     background-color: rgb(255, 255, 255);
     text-align: center;
     font-size: 35px;
-    border: 2px solid gainsboro;
+    border: 2px solid rgb(170, 167, 167);
 }
 
 section {
-    background-color: rgb(9, 27, 87);
+    background-color: rgb(251, 233, 231);
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
     border-color: rgb(150, 104, 104);
 }
 
 .tituloInicio{
-    background-color: rgb(172, 165, 165);
+    background-color: rgb(255, 171, 145);
     text-align: center;
-    font-size: 29px;
+    font-size: 24px;
     font-style: italic;
-    
+    display: flex;
 }
 
 #subtituloInicio {
@@ -54,19 +55,19 @@ section {
     text-align: center;
     font-style: oblique;
     font-size: 33px;
-    background-color: rgb(2, 66, 66);
+    background-color: rgb(255, 204, 188);
 }
 
 footer {
-    background-color: rgb(126, 125, 125);
+    background-color: rgb(255, 138, 101);
 }
 
 .barraPrincipal{
-    display: flex;
+    display: flexbox;
     list-style: disc;
-    font-size: 25px;
+    font-size: 23px;
     border-style: groove;
-    border-color: black;
+    border-color: (230,74,25);
 }
 
 .navegadorItem{
@@ -81,17 +82,18 @@ footer {
 }
 
 .barraPrincipal{
-    background-color: rgb(102, 101, 101);
-    height: 75px;
+    background-color: rgb(255, 112, 67);
+    height: 75px;   
 }
 
-.testimonial-grid{
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    border-color: black;
-    border-style: outset;
-    background-color: dimgrey;
+.imagenQuienesomos{
+    height: 400px;
+    width: 600px;
+    display: flex;
+}
+
+.tituloQuienes{
+    font-size: 35px;
 }
 
 .Somos-grid{
@@ -100,3 +102,36 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     border-style: double;
 }
+
+.carousel{
+    height: 555px;
+    width: 555px;
+    display: flex;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+        body{
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        }
+        .barraPrincipal{
+            display: flex;
+            height: 150px;
+            width: 500px;
+        }
+        .imagenQuienesomos{
+            display: flex;
+            height: 100px;
+            width: 300px;
+        }
+    }
+
+    @media only screen and (min-width: 1920px) and (max-width: 1080px) {
+        body{
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+        }
+    }
+
